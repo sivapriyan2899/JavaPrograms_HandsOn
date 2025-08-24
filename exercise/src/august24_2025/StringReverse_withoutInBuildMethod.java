@@ -9,11 +9,9 @@ public class StringReverse_withoutInBuildMethod {
 		
 		int strLength = strArray.length;
 		
+		//printing from last index using loop
 		for(int i=strLength-1; i>=0; i--) {
 			System.out.print(strArray[i]);
 		}
-		
-
 	}
-
 }

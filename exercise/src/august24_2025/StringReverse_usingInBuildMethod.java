@@ -8,6 +8,7 @@ public class StringReverse_usingInBuildMethod {
 		StringBuilder strBuilder = new StringBuilder();
 		strBuilder.append(str);
 		
+		//reversed using inBuild method
 		System.out.println(strBuilder.reverse());
 	}
 
